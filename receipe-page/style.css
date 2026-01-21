@@ -1,0 +1,123 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+p, ol, ul, li{
+    opacity: 85%;
+}
+
+.main {
+    min-width: 100vw;
+    min-height: 100vh;
+    padding: 20px;
+    background-color:  hsl(329, 53%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    max-width: 400px;
+    height: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px;
+}
+
+.image img{
+    max-width: 350px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.main-head{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.preparation {
+    margin-top: 20px;
+    padding: 15px;
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 5px;
+
+}
+
+.preparation h3{
+    color: hsl(332, 51%, 32%);
+}
+
+.preparation ul{
+    padding-left: 15px;
+}
+
+.ingredients {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+.ingredients h2{
+    color:  hsl(14, 45%, 36%)
+}
+
+.ingredients ul{
+    padding-left: 25px;
+}
+
+.instructions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+.instructions h2{
+    color:  hsl(14, 45%, 36%)
+}
+
+.instructions ol{
+    padding-left: 25px;
+}
+
+.nutrition {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+.nutrition h2{
+    color:  hsl(14, 45%, 36%)
+}
+
+.nutrition div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nutrition div li{
+    list-style-type: none;
+}
+
+.color{
+    color: hsl(332, 51%, 32%);
+}
