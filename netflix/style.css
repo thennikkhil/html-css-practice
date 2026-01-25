@@ -139,7 +139,7 @@ html {
     gap: 4rem;
     overflow: auto;
     padding: 25px;
-    width: 70%;
+    width: 80%;
 }
 
 .card {
@@ -165,4 +165,49 @@ html {
 
 .movie-cards::-webkit-scrollbar {
   display: none;
+}
+
+.morecards::-webkit-scrollbar {
+  display: none;
+}
+
+.reasons{
+    height: 600px;
+    padding: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.morecards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    gap: clamp(1rem, 2vw, 2.5rem);
+    padding: clamp(1rem, 3vw, 2rem);
+    width: min(80%, 75rem);
+    overflow-x: auto;
+}
+
+.morecard1,
+.morecard2,
+.morecard3,
+.morecard4{
+    background: radial-gradient(
+        120% 140% at 10% 10%,
+        #2b1e4a 0%,
+        #140d24 45%,
+        #402393 100%
+    );
+    padding: clamp(1rem, 2vw, 2rem);
+    border-radius: 0.625rem; /* 10px */
+    aspect-ratio: 4 / 5;
+    min-height: 22rem;
+}
+
+.thecards{
+    display: flex;
+    flex-direction: column;
+    gap: clamp(1rem, 2vw, 2rem);
 }
